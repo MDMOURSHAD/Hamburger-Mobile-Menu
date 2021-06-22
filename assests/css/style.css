@@ -1,0 +1,49 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+
+body{
+	height:100vh;
+	background:linear-gradient(to right, #24243e, #302b63, #0f0c29);
+}
+
+ul {
+	margin-bottom:0;
+}
+
+ul li{
+	list-style:none;
+}
+
+/*==================*/
+/*-- MAIN MENU --*/						
+/*==================*/
+
+nav{
+	padding:40px 0px;
+	position:relative;
+}
+
+.main-menu li:not(:last-child){
+	margin-right:40px;
+}
+
+.main-menu li a{
+	font-family: 'Dosis', sans-serif;
+	text-decoration:none;
+	font-size:20px;
+	color:#fff;
+	position:relative;
+	font-weight:400;
+}
+
+/*==================*/
+/*-- MOBILE MENU --*/						
+/*==================*/
+
+.mobile-menu{
+	display:none;
+}
