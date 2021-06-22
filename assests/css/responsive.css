@@ -46,6 +46,10 @@
     -ms-border-radius: 5px;
     background: #fff;
     transition: all .8s;
+    -webkit-transition: all .8s;
+    -moz-transition: all .8s;
+    -ms-transition: all .8s;
+    -o-transition: all .8s;
 }
 
 .change .line-1 {
